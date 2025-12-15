@@ -1,6 +1,6 @@
 # Generation ID: Hutch_1763363382366_pvtgnx94j (前半)
 
-def get_valid_moves(board, color):
+def myai(board, color):
     """
     指定された色の有効な手をすべて取得する
     """
