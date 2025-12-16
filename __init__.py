@@ -12,20 +12,7 @@ def myai(board, color):
             if board[i][j] == 0:
                 if is_valid_move(board, i, j, color, directions):
                     valid_moves.app# Generation ID: Hutch_1763363382366_pvtgnx94j (前半)
-
-def myai(board, color):
-    """
-    指定された色の有効な手をすべて取得する
-    """
-    valid_moves = []
-    directions = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
-
-    for i in range(6):
-        for j in range(6):
-            if board[i][j] == 0:
-                if is_valid_move(board, i, j, color, directions):
-                    valid_moves.append((i, j))
-
+  
     return valid_moves
 
 def is_valid_move(board, row, col, color, directions):
@@ -104,7 +91,7 @@ def is_game_over(board):
     return len(get_valid_moves(board, 1)) == 0 and len(get_valid_moves(board, -1)) == 0
 
 # Generation ID: Hutch_1763363382366_pvtgnx94j (後半)
-end((i, j))
+    end((i, j))
 
     return valid_moves
 
